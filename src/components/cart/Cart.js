@@ -104,7 +104,7 @@ function Cart() {
         onClick={() => dispatch(setCartVisibility(false))}
       ></div>
       <div
-        className={`fixed top-0 right-0 w-10/12 md:w-400 h-screen transition duration-500 ease-in-out z-50
+        className={`fixed top-0 bottom-0 right-0 w-10/12 md:w-400 transition duration-500 ease-in-out z-50
            ${isCartVisible ? "translate-x-0" : "translate-x-full"}`}
       >
         <div className="flex flex-col h-full ms-auto bg-white">
